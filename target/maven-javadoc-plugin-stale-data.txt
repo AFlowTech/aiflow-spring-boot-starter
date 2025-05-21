@@ -1,0 +1,148 @@
+-J-Duser.language=
+-J-Duser.country=
+-Xdoclint:none
+@options
+@packages
+-classpath
+'/Users/wenwucao/.m2/af_repository/com/aflow/boot/aflow-inner-spring-boot-starter/serviceTask-SNAPSHOT/aflow-inner-spring-boot-starter-serviceTask-SNAPSHOT.jar:/Users/wenwucao/.m2/af_repository/org/springframework/boot/spring-boot-starter-data-redis/2.3.12.RELEASE/spring-boot-starter-data-redis-2.3.12.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/boot/spring-boot-starter/2.3.12.RELEASE/spring-boot-starter-2.3.12.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/boot/spring-boot/2.3.12.RELEASE/spring-boot-2.3.12.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/spring-context/5.2.15.RELEASE/spring-context-5.2.15.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/spring-expression/5.2.15.RELEASE/spring-expression-5.2.15.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/boot/spring-boot-autoconfigure/2.3.12.RELEASE/spring-boot-autoconfigure-2.3.12.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/boot/spring-boot-starter-logging/2.3.12.RELEASE/spring-boot-starter-logging-2.3.12.RELEASE.jar:/Users/wenwucao/.m2/af_repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/wenwucao/.m2/af_repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/wenwucao/.m2/af_repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/Users/wenwucao/.m2/af_repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/wenwucao/.m2/af_repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar:/Users/wenwucao/.m2/af_repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/wenwucao/.m2/af_repository/org/springframework/spring-core/5.2.15.RELEASE/spring-core-5.2.15.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/spring-jcl/5.2.15.RELEASE/spring-jcl-5.2.15.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:/Users/wenwucao/.m2/af_repository/org/springframework/data/spring-data-redis/2.3.9.RELEASE/spring-data-redis-2.3.9.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/data/spring-data-keyvalue/2.3.9.RELEASE/spring-data-keyvalue-2.3.9.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/data/spring-data-commons/2.3.9.RELEASE/spring-data-commons-2.3.9.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/spring-tx/5.2.14.RELEASE/spring-tx-5.2.14.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/spring-beans/5.2.14.RELEASE/spring-beans-5.2.14.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/spring-oxm/5.2.14.RELEASE/spring-oxm-5.2.14.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/spring-aop/5.2.14.RELEASE/spring-aop-5.2.14.RELEASE.jar:/Users/wenwucao/.m2/af_repository/org/springframework/spring-context-support/5.2.14.RELEASE/spring-context-support-5.2.14.RELEASE.jar:/Users/wenwucao/.m2/af_repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/wenwucao/.m2/af_repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/wenwucao/.m2/af_repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/wenwucao/.m2/af_repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/wenwucao/.m2/af_repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/wenwucao/.m2/af_repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/wenwucao/.m2/af_repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/wenwucao/.m2/af_repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/Users/wenwucao/.m2/af_repository/org/apache/avro/avro/1.11.3/avro-1.11.3.jar:/Users/wenwucao/.m2/af_repository/org/apache/commons/commons-compress/1.22/commons-compress-1.22.jar:/Users/wenwucao/.m2/af_repository/com/esotericsoftware/kryo/5.5.0/kryo-5.5.0.jar:/Users/wenwucao/.m2/af_repository/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar:/Users/wenwucao/.m2/af_repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/wenwucao/.m2/af_repository/com/esotericsoftware/minlog/1.3.1/minlog-1.3.1.jar:/Users/wenwucao/.m2/af_repository/com/github/javaparser/javaparser-symbol-solver-core/3.25.1/javaparser-symbol-solver-core-3.25.1.jar:/Users/wenwucao/.m2/af_repository/com/github/javaparser/javaparser-core/3.25.1/javaparser-core-3.25.1.jar:/Users/wenwucao/.m2/af_repository/org/javassist/javassist/3.29.2-GA/javassist-3.29.2-GA.jar:/Users/wenwucao/.m2/af_repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/wenwucao/.m2/af_repository/redis/clients/jedis/3.9.0/jedis-3.9.0.jar:/Users/wenwucao/.m2/af_repository/io/lettuce/lettuce-core/6.2.4.RELEASE/lettuce-core-6.2.4.RELEASE.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-common/4.1.91.Final/netty-common-4.1.91.Final.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-transport/4.1.91.Final/netty-transport-4.1.91.Final.jar:/Users/wenwucao/.m2/af_repository/io/projectreactor/reactor-core/3.4.29/reactor-core-3.4.29.jar:/Users/wenwucao/.m2/af_repository/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar:/Users/wenwucao/.m2/af_repository/com/aflow/aflow-client/serviceTask-SNAPSHOT/aflow-client-serviceTask-SNAPSHOT.jar:/Users/wenwucao/.m2/af_repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/wenwucao/.m2/af_repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/wenwucao/.m2/af_repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/wenwucao/.m2/af_repository/com/aflow/aflow-mq/serviceTask-SNAPSHOT/aflow-mq-serviceTask-SNAPSHOT.jar:/Users/wenwucao/.m2/af_repository/org/apache/rocketmq/rocketmq-client-java/5.0.7/rocketmq-client-java-5.0.7.jar:/Users/wenwucao/.m2/af_repository/org/apache/tomcat/annotations-api/6.0.53/annotations-api-6.0.53.jar:/Users/wenwucao/.m2/af_repository/com/aliyun/rocketmq20220801/3.1.0/rocketmq20220801-3.1.0.jar:/Users/wenwucao/.m2/af_repository/com/aliyun/tea-util/0.2.23/tea-util-0.2.23.jar:/Users/wenwucao/.m2/af_repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/wenwucao/.m2/af_repository/com/aliyun/tea-openapi/0.3.7/tea-openapi-0.3.7.jar:/Users/wenwucao/.m2/af_repository/com/aliyun/credentials-java/1.0.1/credentials-java-1.0.1.jar:/Users/wenwucao/.m2/af_repository/com/aliyun/credentials-api/1.0.0/credentials-api-1.0.0.jar:/Users/wenwucao/.m2/af_repository/com/aliyun/alibabacloud-gateway-spi/0.0.2/alibabacloud-gateway-spi-0.0.2.jar:/Users/wenwucao/.m2/af_repository/com/aliyun/tea-xml/0.1.6/tea-xml-0.1.6.jar:/Users/wenwucao/.m2/af_repository/org/dom4j/dom4j/2.0.3/dom4j-2.0.3.jar:/Users/wenwucao/.m2/af_repository/org/jacoco/org.jacoco.agent/0.8.4/org.jacoco.agent-0.8.4-runtime.jar:/Users/wenwucao/.m2/af_repository/com/aliyun/openapiutil/0.2.2/openapiutil-0.2.2.jar:/Users/wenwucao/.m2/af_repository/org/bouncycastle/bcprov-jdk18on/1.78.1/bcprov-jdk18on-1.78.1.jar:/Users/wenwucao/.m2/af_repository/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar:/Users/wenwucao/.m2/af_repository/com/aliyun/endpoint-util/0.0.7/endpoint-util-0.0.7.jar:/Users/wenwucao/.m2/af_repository/com/aliyun/tea/1.3.1/tea-1.3.1.jar:/Users/wenwucao/.m2/af_repository/com/squareup/okhttp3/okhttp/3.12.13/okhttp-3.12.13.jar:/Users/wenwucao/.m2/af_repository/com/squareup/okio/okio/1.15.0/okio-1.15.0.jar:/Users/wenwucao/.m2/af_repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/wenwucao/.m2/af_repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/wenwucao/.m2/af_repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/wenwucao/.m2/af_repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-buffer/4.1.60.Final/netty-buffer-4.1.60.Final.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-codec-http/4.1.60.Final/netty-codec-http-4.1.60.Final.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-codec/4.1.60.Final/netty-codec-4.1.60.Final.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-handler/4.1.60.Final/netty-handler-4.1.60.Final.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-resolver/4.1.60.Final/netty-resolver-4.1.60.Final.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-transport-native-unix-common/4.1.60.Final/netty-transport-native-unix-common-4.1.60.Final.jar:/Users/wenwucao/.m2/af_repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/wenwucao/.m2/af_repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/wenwucao/.m2/af_repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/wenwucao/.m2/af_repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/wenwucao/.m2/af_repository/com/fasterxml/jackson/core/jackson-databind/2.17.1/jackson-databind-2.17.1.jar:/Users/wenwucao/.m2/af_repository/com/fasterxml/jackson/core/jackson-core/2.17.1/jackson-core-2.17.1.jar:/Users/wenwucao/.m2/af_repository/com/fasterxml/jackson/core/jackson-annotations/2.17.1/jackson-annotations-2.17.1.jar:/Users/wenwucao/.m2/af_repository/com/fasterxml/jackson/module/jackson-module-afterburner/2.17.1/jackson-module-afterburner-2.17.1.jar:/Users/wenwucao/.m2/af_repository/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.17.1/jackson-datatype-guava-2.17.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/src/main/java:/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'aiflow-spring-boot-starter 0.0.1-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'aiflow-spring-boot-starter 0.0.1-SNAPSHOT API'
+fan.aiflow.client.init
+/Users/wenwucao/.m2/af_repository/com/aflow/boot/aflow-inner-spring-boot-starter/serviceTask-SNAPSHOT/aflow-inner-spring-boot-starter-serviceTask-SNAPSHOT.jar = 1747837297642
+/Users/wenwucao/.m2/af_repository/org/springframework/boot/spring-boot-starter-data-redis/2.3.12.RELEASE/spring-boot-starter-data-redis-2.3.12.RELEASE.jar = 1623319259000
+/Users/wenwucao/.m2/af_repository/org/springframework/boot/spring-boot-starter/2.3.12.RELEASE/spring-boot-starter-2.3.12.RELEASE.jar = 1623318025000
+/Users/wenwucao/.m2/af_repository/org/springframework/boot/spring-boot/2.3.12.RELEASE/spring-boot-2.3.12.RELEASE.jar = 1623318027000
+/Users/wenwucao/.m2/af_repository/org/springframework/spring-context/5.2.15.RELEASE/spring-context-5.2.15.RELEASE.jar = 1620803997000
+/Users/wenwucao/.m2/af_repository/org/springframework/spring-expression/5.2.15.RELEASE/spring-expression-5.2.15.RELEASE.jar = 1620806045000
+/Users/wenwucao/.m2/af_repository/org/springframework/boot/spring-boot-autoconfigure/2.3.12.RELEASE/spring-boot-autoconfigure-2.3.12.RELEASE.jar = 1623318026000
+/Users/wenwucao/.m2/af_repository/org/springframework/boot/spring-boot-starter-logging/2.3.12.RELEASE/spring-boot-starter-logging-2.3.12.RELEASE.jar = 1623318027000
+/Users/wenwucao/.m2/af_repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar = 1532349669000
+/Users/wenwucao/.m2/af_repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar = 1532350368000
+/Users/wenwucao/.m2/af_repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar = 1589440526000
+/Users/wenwucao/.m2/af_repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar = 1589432906000
+/Users/wenwucao/.m2/af_repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar = 1576546024000
+/Users/wenwucao/.m2/af_repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar = 1567245820000
+/Users/wenwucao/.m2/af_repository/org/springframework/spring-core/5.2.15.RELEASE/spring-core-5.2.15.RELEASE.jar = 1620803999000
+/Users/wenwucao/.m2/af_repository/org/springframework/spring-jcl/5.2.15.RELEASE/spring-jcl-5.2.15.RELEASE.jar = 1620803995000
+/Users/wenwucao/.m2/af_repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar = 1582885144000
+/Users/wenwucao/.m2/af_repository/org/springframework/data/spring-data-redis/2.3.9.RELEASE/spring-data-redis-2.3.9.RELEASE.jar = 1618404462000
+/Users/wenwucao/.m2/af_repository/org/springframework/data/spring-data-keyvalue/2.3.9.RELEASE/spring-data-keyvalue-2.3.9.RELEASE.jar = 1618404461000
+/Users/wenwucao/.m2/af_repository/org/springframework/data/spring-data-commons/2.3.9.RELEASE/spring-data-commons-2.3.9.RELEASE.jar = 1618398914000
+/Users/wenwucao/.m2/af_repository/org/springframework/spring-tx/5.2.14.RELEASE/spring-tx-5.2.14.RELEASE.jar = 1618321238000
+/Users/wenwucao/.m2/af_repository/org/springframework/spring-beans/5.2.14.RELEASE/spring-beans-5.2.14.RELEASE.jar = 1618321238000
+/Users/wenwucao/.m2/af_repository/org/springframework/spring-oxm/5.2.14.RELEASE/spring-oxm-5.2.14.RELEASE.jar = 1618365087000
+/Users/wenwucao/.m2/af_repository/org/springframework/spring-aop/5.2.14.RELEASE/spring-aop-5.2.14.RELEASE.jar = 1618321236000
+/Users/wenwucao/.m2/af_repository/org/springframework/spring-context-support/5.2.14.RELEASE/spring-context-support-5.2.14.RELEASE.jar = 1618324231000
+/Users/wenwucao/.m2/af_repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar = 1686637790000
+/Users/wenwucao/.m2/af_repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar = 1542675126000
+/Users/wenwucao/.m2/af_repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1536821154000
+/Users/wenwucao/.m2/af_repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar = 1532351166000
+/Users/wenwucao/.m2/af_repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar = 1680543515000
+/Users/wenwucao/.m2/af_repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar = 1673286399000
+/Users/wenwucao/.m2/af_repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar = 1673411010000
+/Users/wenwucao/.m2/af_repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar = 1532349084000
+/Users/wenwucao/.m2/af_repository/org/apache/avro/avro/1.11.3/avro-1.11.3.jar = 1695622637000
+/Users/wenwucao/.m2/af_repository/org/apache/commons/commons-compress/1.22/commons-compress-1.22.jar = 1667266000000
+/Users/wenwucao/.m2/af_repository/com/esotericsoftware/kryo/5.5.0/kryo-5.5.0.jar = 1682041008000
+/Users/wenwucao/.m2/af_repository/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar = 1553068482000
+/Users/wenwucao/.m2/af_repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar = 1659359132000
+/Users/wenwucao/.m2/af_repository/com/esotericsoftware/minlog/1.3.1/minlog-1.3.1.jar = 1546051389000
+/Users/wenwucao/.m2/af_repository/com/github/javaparser/javaparser-symbol-solver-core/3.25.1/javaparser-symbol-solver-core-3.25.1.jar = 1677601347000
+/Users/wenwucao/.m2/af_repository/com/github/javaparser/javaparser-core/3.25.1/javaparser-core-3.25.1.jar = 1677686491000
+/Users/wenwucao/.m2/af_repository/org/javassist/javassist/3.29.2-GA/javassist-3.29.2-GA.jar = 1663171696000
+/Users/wenwucao/.m2/af_repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar = 1532350092000
+/Users/wenwucao/.m2/af_repository/redis/clients/jedis/3.9.0/jedis-3.9.0.jar = 1654497777000
+/Users/wenwucao/.m2/af_repository/io/lettuce/lettuce-core/6.2.4.RELEASE/lettuce-core-6.2.4.RELEASE.jar = 1681834649000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-common/4.1.91.Final/netty-common-4.1.91.Final.jar = 1680531492000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-transport/4.1.91.Final/netty-transport-4.1.91.Final.jar = 1680531493000
+/Users/wenwucao/.m2/af_repository/io/projectreactor/reactor-core/3.4.29/reactor-core-3.4.29.jar = 1681262449000
+/Users/wenwucao/.m2/af_repository/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar = 1629247819000
+/Users/wenwucao/.m2/af_repository/com/aflow/aflow-client/serviceTask-SNAPSHOT/aflow-client-serviceTask-SNAPSHOT.jar = 1747726435122
+/Users/wenwucao/.m2/af_repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar = 1565749101000
+/Users/wenwucao/.m2/af_repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1532348412000
+/Users/wenwucao/.m2/af_repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar = 1532351345000
+/Users/wenwucao/.m2/af_repository/com/aflow/aflow-mq/serviceTask-SNAPSHOT/aflow-mq-serviceTask-SNAPSHOT.jar = 1747046640812
+/Users/wenwucao/.m2/af_repository/org/apache/rocketmq/rocketmq-client-java/5.0.7/rocketmq-client-java-5.0.7.jar = 1718776698000
+/Users/wenwucao/.m2/af_repository/org/apache/tomcat/annotations-api/6.0.53/annotations-api-6.0.53.jar = 1532836802000
+/Users/wenwucao/.m2/af_repository/com/aliyun/rocketmq20220801/3.1.0/rocketmq20220801-3.1.0.jar = 1744767085000
+/Users/wenwucao/.m2/af_repository/com/aliyun/tea-util/0.2.23/tea-util-0.2.23.jar = 1721047332000
+/Users/wenwucao/.m2/af_repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar = 1716152526000
+/Users/wenwucao/.m2/af_repository/com/aliyun/tea-openapi/0.3.7/tea-openapi-0.3.7.jar = 1741780098000
+/Users/wenwucao/.m2/af_repository/com/aliyun/credentials-java/1.0.1/credentials-java-1.0.1.jar = 1739361926000
+/Users/wenwucao/.m2/af_repository/com/aliyun/credentials-api/1.0.0/credentials-api-1.0.0.jar = 1732698321000
+/Users/wenwucao/.m2/af_repository/com/aliyun/alibabacloud-gateway-spi/0.0.2/alibabacloud-gateway-spi-0.0.2.jar = 1722559120000
+/Users/wenwucao/.m2/af_repository/com/aliyun/tea-xml/0.1.6/tea-xml-0.1.6.jar = 1710212328000
+/Users/wenwucao/.m2/af_repository/org/dom4j/dom4j/2.0.3/dom4j-2.0.3.jar = 1586827558000
+/Users/wenwucao/.m2/af_repository/org/jacoco/org.jacoco.agent/0.8.4/org.jacoco.agent-0.8.4-runtime.jar = 1557511284000
+/Users/wenwucao/.m2/af_repository/com/aliyun/openapiutil/0.2.2/openapiutil-0.2.2.jar = 1730354321000
+/Users/wenwucao/.m2/af_repository/org/bouncycastle/bcprov-jdk18on/1.78.1/bcprov-jdk18on-1.78.1.jar = 1713433794000
+/Users/wenwucao/.m2/af_repository/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar = 1714225008000
+/Users/wenwucao/.m2/af_repository/com/aliyun/endpoint-util/0.0.7/endpoint-util-0.0.7.jar = 1652691802000
+/Users/wenwucao/.m2/af_repository/com/aliyun/tea/1.3.1/tea-1.3.1.jar = 1724034421000
+/Users/wenwucao/.m2/af_repository/com/squareup/okhttp3/okhttp/3.12.13/okhttp-3.12.13.jar = 1612074992000
+/Users/wenwucao/.m2/af_repository/com/squareup/okio/okio/1.15.0/okio-1.15.0.jar = 1532772184000
+/Users/wenwucao/.m2/af_repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar = 1700617344000
+/Users/wenwucao/.m2/af_repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar = 1562646845000
+/Users/wenwucao/.m2/af_repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar = 1616987717000
+/Users/wenwucao/.m2/af_repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar = 1616987717000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-buffer/4.1.60.Final/netty-buffer-4.1.60.Final.jar = 1615306463000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-codec-http/4.1.60.Final/netty-codec-http-4.1.60.Final.jar = 1615306486000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-codec/4.1.60.Final/netty-codec-4.1.60.Final.jar = 1615306486000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-handler/4.1.60.Final/netty-handler-4.1.60.Final.jar = 1615306487000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-resolver/4.1.60.Final/netty-resolver-4.1.60.Final.jar = 1615306487000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar = 1615306486000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar = 1615306485000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar = 1615306486000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-transport-native-unix-common/4.1.60.Final/netty-transport-native-unix-common-4.1.60.Final.jar = 1615306486000
+/Users/wenwucao/.m2/af_repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar = 1615372844000
+/Users/wenwucao/.m2/af_repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar = 1566651381000
+/Users/wenwucao/.m2/af_repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar = 1576200387000
+/Users/wenwucao/.m2/af_repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar = 1582517619000
+/Users/wenwucao/.m2/af_repository/com/fasterxml/jackson/core/jackson-databind/2.17.1/jackson-databind-2.17.1.jar = 1714875906000
+/Users/wenwucao/.m2/af_repository/com/fasterxml/jackson/core/jackson-core/2.17.1/jackson-core-2.17.1.jar = 1714875905000
+/Users/wenwucao/.m2/af_repository/com/fasterxml/jackson/core/jackson-annotations/2.17.1/jackson-annotations-2.17.1.jar = 1714875905000
+/Users/wenwucao/.m2/af_repository/com/fasterxml/jackson/module/jackson-module-afterburner/2.17.1/jackson-module-afterburner-2.17.1.jar = 1714876091000
+/Users/wenwucao/.m2/af_repository/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.17.1/jackson-datatype-guava-2.17.1.jar = 1714946619000
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/src/main/java = 1747835385885
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/generated-sources/annotations = 1747838178426
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/tag-search-index.js = 1747838180106
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/overview-tree.html = 1747838180101
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/module-search-index.js = 1747838180106
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/index.html = 1747838180110
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/package-search-index.js = 1747838180106
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/link.svg = 1747838180116
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/index-all.html = 1747838180109
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/allpackages-index.html = 1747838180106
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/member-search-index.js = 1747838180106
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/copy.svg = 1747838180115
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/script.js = 1747838180115
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/stylesheet.css = 1747838180114
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/search-page.js = 1747838180117
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/help-doc.html = 1747838180113
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/element-list = 1747838180092
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/search.html = 1747838180109
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/allclasses-index.html = 1747838180105
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/type-search-index.js = 1747838180106
+/Users/wenwucao/Project/aiflowouter/aiflow-spring-boot-starter/target/reports/apidocs/search.js = 1747838180116
