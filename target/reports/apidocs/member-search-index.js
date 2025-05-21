@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"fan.aiflow.client.init","c":"BootStrap","l":"BootStrap()","u":"%3Cinit%3E()"},{"p":"fan.aiflow.client.init","c":"BootStrap","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();
