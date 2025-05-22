@@ -7,7 +7,7 @@
     <groupId>fan.aiflow</groupId>
     <artifactId>aiflow-spring-boot-starter</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOTs</version>
 
     <description>
         aiflow client spring boot starter
@@ -17,15 +17,26 @@
         <developer>
             <name>sosan</name>
             <email>aflowsosan@gmail.com</email>
+            <roles>
+                <role>Project Manager</role>
+                <role>Developer</role>
+            </roles>
         </developer>
     </developers>
 
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/AFlowTech/aiflow-spring-boot-starter/issues</url>
+    </issueManagement>
+
+    <inceptionYear>2025</inceptionYear>
 
     <scm>
         <connection>scm:git:git@github.com:AFlowTech/aiflow-spring-boot-starter.git</connection>
@@ -64,7 +75,6 @@
                 <artifactId>aflow-client</artifactId>
                 <version>${aflow.client.version}</version>
             </dependency>
-
 
             <dependency>
                 <groupId>com.aflow</groupId>
@@ -304,7 +314,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <!-- 这里的serverId是之前在settings.xml中配置的 -->
-                    <publishingServerId>qflow-to-central</publishingServerId>
+                    <publishingServerId>sonatype-aflow</publishingServerId>
                 </configuration>
             </plugin>
 
