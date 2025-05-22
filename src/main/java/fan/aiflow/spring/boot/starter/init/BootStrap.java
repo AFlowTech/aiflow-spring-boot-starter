@@ -1,4 +1,4 @@
-package fan.aiflow.client.init;
+package fan.aiflow.spring.boot.starter.init;
 
 
 
